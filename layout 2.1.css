@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+   
+}
+.container {
+    border: 6px solid grey;
+    height: 400px;
+    padding: 24px;
+    justify-content: center;
+    display: flex;
+}
+
+.row {
+    width: 100%;
+    /*never hardcode a width to a specific px integer; go with percentages*/
+    max-width: 600px;
+    justify-content: center;
+    /* margin: 0 auto; <---- use this and delete justify content and display in .container*/
+}
+
+/*space bar*/
+.bar {
+    height: 100px;
+    width: 100%;
+}
+.search {
+    border: 2px solid lightslategrey;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 0px 20px 5px;
+}
+
+
+/*six squares*/
+.subwrapper {
+    justify-content: space-between;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.subcontent {
+    border: 3px solid black;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(245, 167, 99);
+    margin-bottom: 24px;
+   padding: 20px ;
+}

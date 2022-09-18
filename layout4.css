@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px solid grey;
+    padding: 24px 24px 0 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto 10px auto;
+}
+
+.top-wrapper {
+    width: 50%;
+}
+
+.box {
+    border: 2px solid black;
+    margin-bottom: 24px;
+    padding: 10px 0 0 10px;
+}
+
+.box-small {
+    height: 50px;
+    background-color:rgb(140, 211, 240);
+}
+
+.bottom-wrapper {
+    display: flex;
+    justify-content:space-between;
+}
+
+.box-tiny {
+    height: 50px;
+    width: 30%;
+    background-color: rgb(224, 61, 61);
+}
+
+.box-large {
+    width: 45%;
+    background-color:rgb(129, 226, 194);
+
+}
